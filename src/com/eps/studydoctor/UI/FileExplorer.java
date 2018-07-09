@@ -19,6 +19,7 @@ public class FileExplorer extends javax.swing.JDialog {
     public FileExplorer(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
+        System.out.println("Hi how are you?");
     }
     public static String fileSelected = "";
     public static File file_;
